@@ -1,7 +1,6 @@
 ### cloudbuild.yaml para la canalización de CI/CD
 
-### Configura sustituciones
-para los valores dinámicos:
+substitutions: # Configura sustituciones para los valores dinámicos
   _PROJECT_ID: qwiklabs-gcp-04-f4e20542c0d1 # Ingresa tu ID de proyecto
   _REGION: us-east4 # Ingresa tu región
   _SERVICE_NAME: inventory-api
